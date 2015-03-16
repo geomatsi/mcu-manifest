@@ -1,14 +1,8 @@
-# stm32-manifest
-Manifests for stm32 projects
+# mcu-manifest
+Manifests for MCU projects
 
-## stm32f4-discovery
+## stm32f4
 $ mkdir project  
 $ cd project  
-$ repo init -u git@github.com:geomatsi/stm32-manifest.git -b stm32f4-discovery  
-$ repo sync -c  
-
-## stm32f401re-nucleo
-$ mkdir project  
-$ cd project  
-$ repo init -u git@github.com:geomatsi/stm32-manifest.git -b stm32f401re-nucleo  
+$ repo init -u git@github.com:geomatsi/mcu-manifest.git -b stm32f4  
 $ repo sync -c  
