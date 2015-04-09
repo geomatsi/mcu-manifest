@@ -6,3 +6,9 @@ $ mkdir project
 $ cd project  
 $ repo init -u git@github.com:geomatsi/mcu-manifest.git -b stm32f4  
 $ repo sync -c  
+
+## avr
+$ mkdir project  
+$ cd project  
+$ repo init -u git@github.com:geomatsi/mcu-manifest.git -b avr  
+$ repo sync -c  
