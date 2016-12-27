@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="geomatsi" fetch="https://github.com/geomatsi"/>
+	<remote  name="nanopb" fetch="https://github.com/nanopb"/>
+
+	<default remote="geomatsi" revision="master"/>
+
+	<project path="tests" name="avr-tests">
+		<copyfile src="root.mk" dest="Makefile"/>
+	</project>
+
+	<project path="softuart" name="avr-softuart" remote="geomatsi" revision="master"/>
+	<project path="libnrf24" name="libnrf24" remote="geomatsi" revision="master"/>
+	<project path="nanopb" name="nanopb" remote="nanopb" revision="master"/>
+
+</manifest>

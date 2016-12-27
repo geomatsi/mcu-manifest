@@ -4,11 +4,11 @@ Manifests for MCU projects
 ## stm32f4
 $ mkdir project  
 $ cd project  
-$ repo init -u git@github.com:geomatsi/mcu-manifest.git -b stm32f4  
+$ repo init -u git@github.com:geomatsi/mcu-manifest.git -b master -m stm32-manifest.xml  
 $ repo sync -c  
 
 ## avr
 $ mkdir project  
 $ cd project  
-$ repo init -u git@github.com:geomatsi/mcu-manifest.git -b avr  
+$ repo init -u git@github.com:geomatsi/mcu-manifest.git -b master -m avr-manifest.xml  
 $ repo sync -c  

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="geomatsi" fetch="https://github.com/geomatsi"/>
+	<remote  name="github" fetch="https://github.com"/>
+
+	<default remote="geomatsi" revision="master"/>
+
+	<project path="tests" name="stm32-tests">
+		<copyfile src="mk/repo.stm32.mk" dest="Makefile"/>
+	</project>
+
+	<project path="libstlinky" name="libstlinky" remote="geomatsi" revision="master"/>
+	<project path="libnrf24" name="libnrf24" remote="geomatsi" revision="master"/>
+	<project path="libopencm3" name="libopencm3/libopencm3" remote="github" revision="master"/>
+	<project path="nanopb" name="nanopb/nanopb" remote="github" revision="master"/>
+	<project path="FreeRTOSV8.2.1" name="FreeRTOS-core" remote="geomatsi" revision="FreeRTOSV8.2.1"/>
+
+</manifest>
